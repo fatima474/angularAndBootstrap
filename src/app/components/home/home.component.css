@@ -1,0 +1,21 @@
+#big-box {
+	width:100%;
+	height: calc(100vh - 80px);
+	border:1px 
+	solid #000;
+	display:flex;
+}
+
+#left-box {
+	margin: 20px;
+	width:25%;
+  height:calc(100vh - 120px);
+  border:1px solid;
+}
+
+#right-box {
+	margin: 20px;
+	width:75%;
+  height:calc(100vh - 120px);
+  border:1px solid;
+}
