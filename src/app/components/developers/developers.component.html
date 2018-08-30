@@ -2,9 +2,10 @@
 	<div id="coverbox" class="row">
 		<div id="box" class="col-xs-6 col-sm-4 col-lg-3" *ngFor="let developer of developers; let i = index" >
 				<i class="fa fa-times" (click)="remove(developer, i)"></i>
-				{{developer.firstName}}
 					<br>
-					{{developer.desc}}
+				Name: {{developer.firstName}}
+					<br>
+				Desc: {{developer.desc}}
 				
 		</div>
 
