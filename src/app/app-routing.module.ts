@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './components/home/home.component';
 import { DevelopersComponent } from './components/developers/developers.component';
+import { RestComponent } from './components/rest/rest.component';
 
 const routes: Routes = [{
 	path: 'home',
@@ -11,6 +12,10 @@ const routes: Routes = [{
   {
 	path: 'developers',
     component: DevelopersComponent
+  },
+  {
+  path: 'rest',
+    component: RestComponent
   },
   {
 	path: '**', redirectTo: 'home'
