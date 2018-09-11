@@ -8,5 +8,6 @@ import { NgxSoapService, Client, ISoapMethodResponse } from 'ngx-soap';
 })
 export class SoapComponent {
 
+
   
 }
