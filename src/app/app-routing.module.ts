@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { DevelopersComponent } from './components/developers/developers.component';
 import { RestComponent } from './components/rest/rest.component';
+import { SoapComponent } from './components/soap/soap.component';
 
 const routes: Routes = [{
 	path: 'home',
@@ -16,6 +17,10 @@ const routes: Routes = [{
   {
   path: 'rest',
     component: RestComponent
+  },
+  {
+  path: 'soap',
+    component: SoapComponent
   },
   {
 	path: '**', redirectTo: 'home'
